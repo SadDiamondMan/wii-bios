@@ -3,7 +3,7 @@ local VesselActor, super = Class(ActorSprite)
 function VesselActor:init(actor, data)
     super:init(self, actor)
 
-    self.parts = {vessel_head(self, data)}
+    self.parts = {vessel_head(self, data), vessel_legs(self, data)}
 
     for _,v in pairs(self.parts) do
         v:setOrigin(0.5, 1)

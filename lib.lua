@@ -59,7 +59,7 @@ function Lib:getVii()
 	return {
 		head = 1,
 		body = 1,
-		legs_left = true,
+		legs = 1,
 		skin_color = {195/255, 195/255, 195/255},
 		hair_color = {61/255, 18/255, 14/255},
 		shirt_color_1 = {127/255, 127/255, 127/255},
